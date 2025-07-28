@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Water Panda</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <i class="fas fa-tint"></i>
+                <span>Water Panda</span>
+            </div>
+            
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="index.html" class="nav__link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="about.html" class="nav__link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="products.html" class="nav__link active">Products</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="delivery.html" class="nav__link">Delivery</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="sustainability.html" class="nav__link">Sustainability</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="contact.html" class="nav__link">Contact</a>
+                    </li>
+                </ul>
+                
+                <div class="nav__close" id="nav-close">
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+            
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="page-header__title">Our Products</h1>
+            <p class="page-header__subtitle">Choose from our range of premium water bottles</p>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products section">
+        <div class="container">
+            <!-- Filters -->
+            <div class="products__filters">
+                <button class="filter__btn active" data-filter="all">All Sizes</button>
+                <button class="filter__btn" data-filter="500ml">500ml</button>
+                <button class="filter__btn" data-filter="1.5L">1.5L</button>
+                <button class="filter__btn" data-filter="5L">5L</button>
+                <button class="filter__btn" data-filter="19L">19L</button>
+            </div>
+
+            <!-- Products Grid -->
+            <div class="products__grid" id="products-grid">
+                <!-- 500ml Products -->
+                <div class="product__card" data-category="500ml">
+                    <div class="product__image">
+                        <img src="/placeholder.svg?height=300&width=200" alt="500ml Water Bottle">
+                    </div>
+                    <div class="product__content">
+                        <h3 class="product__title">Premium Water 500ml</h3>
+                        <p class="product__size">500ml</p>
+                        <p class="product__price">$2.99</p>
+                        <div class="product__buttons">
+                            <button class="btn btn--primary btn--small">Add to Cart</button>
+                            <button class="btn btn--secondary btn--small">Subscribe</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product__card" data-category="500ml">
+                    <div class="product__image">
+                        <img src="/placeholder.svg?height=300&width=200" alt="500ml Sport Water Bottle">
+                    </div>
+                    <div class="product__content">
+                        <h3 class="product__title">Sport Water 500ml</h3>
+                        <p class="product__size">500ml</p>
+                        <p class="product__price">$3.49</p>
+                        <div class="product__buttons">
+                            <button class="btn btn--primary btn--small">Add to Cart</button>
+                            <button class="btn btn--secondary btn--small">Subscribe</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 1.5L Products -->
+                <div class="product__card" data-category="1.5L">
+                    <div class="product__image">
+                        <img src="/placeholder.svg?height=350&width=200" alt="1.5L Water Bottle">
+                    </div>
+                    <div class="product__content">
+                        <h3 class="product__title">Family Water 1.5L</h3>
+                        <p class="product__size">1.5L</p>
+                        <p class="product__price">$4.99</p>
+                        <div class="product__buttons">
+                            <button class="btn btn--primary btn--small">Add to Cart</button>
+                            <button class="btn btn--secondary btn--small">Subscribe</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product__card" data-category="1.5L">
+                    <div class="product__image">
+                        <img src="/placeholder.svg?height=350&width=200" alt="1.5L Mineral Water">
+                    </div>
+                    <div class="product__content">
+                        <h3 class="product__title">Mineral Plus 1.5L</h3>
+                        <p class="product__size">1.5L</p>
+                        <p class="product__price">$5.99</p>
+                        <div class="product__buttons">
+                            <button class="btn btn--primary btn--small">Add to Cart</button>
+                            <button class="btn btn--secondary btn--small">Subscribe</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 5L Products -->
+                <div class="product__card" data-category="5L">
+                    <div class="product__image">
+                        <img src="/placeholder.svg?height=400&width=250" alt="5L Water Bottle">
+                    </div>
+                    <div class="product__content">
+                        <h3 class="product__title">Office Water 5L</h3>
+                        <p class="product__size">5L</p>
+                        <p class="product__price">$12.99</p>
+                        <div class="product__buttons">
+                            <button class="btn btn--primary btn--small">Add to Cart</button>
+                            <button class="btn btn--secondary btn--small">Subscribe</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 19L Products -->
+                <div class="product__card" data-category="19L">
+                    <div class="product__image">
+                        <img src="/placeholder.svg?height=450&width=300" alt="19L Water Bottle">
+                    </div>
+                    <div class="product__content">
+                        <h3 class="product__title">Cooler Water 19L</h3>
+                        <p class="product__size">19L</p>
+                        <p class="product__price">$24.99</p>
+                        <div class="product__buttons">
+                            <button class="btn btn--primary btn--small">Add to Cart</button>
+                            <button class="btn btn--secondary btn--small">Subscribe</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product__card" data-category="19L">
+                    <div class="product__image">
+                        <img src="/placeholder.svg?height=450&width=300" alt="19L Alkaline Water">
+                    </div>
+                    <div class="product__content">
+                        <h3 class="product__title">Alkaline Water 19L</h3>
+                        <p class="product__size">19L</p>
+                        <p class="product__price">$29.99</p>
+                        <div class="product__buttons">
+                            <button class="btn btn--primary btn--small">Add to Cart</button>
+                            <button class="btn btn--secondary btn--small">Subscribe</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Subscription Benefits -->
+    <section class="subscription section section--gray">
+        <div class="container">
+            <h2 class="section__title">Subscription Benefits</h2>
+            <div class="subscription__grid">
+                <div class="subscription__card">
+                    <div class="subscription__icon">
+                        <i class="fas fa-percentage"></i>
+                    </div>
+                    <h3 class="subscription__title">Save 15%</h3>
+                    <p class="subscription__description">Get 15% off on all subscription orders</p>
+                </div>
+                
+                <div class="subscription__card">
+                    <div class="subscription__icon">
+                        <i class="fas fa-truck"></i>
+                    </div>
+                    <h3 class="subscription__title">Free Delivery</h3>
+                    <p class="subscription__description">Enjoy free delivery on all subscription orders</p>
+                </div>
+                
+                <div class="subscription__card">
+                    <div class="subscription__icon">
+                        <i class="fas fa-calendar-alt"></i>
+                    </div>
+                    <h3 class="subscription__title">Flexible Schedule</h3>
+                    <p class="subscription__description">Change delivery dates anytime</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__section">
+                    <div class="footer__logo">
+                        <i class="fas fa-tint"></i>
+                        <span>Water Panda</span>
+                    </div>
+                    <p class="footer__slogan">Purity Delivered to Your Doorstep</p>
+                </div>
+                
+                <div class="footer__section">
+                    <h3 class="footer__title">Quick Links</h3>
+                    <ul class="footer__links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="delivery.html">Delivery</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer__section">
+                    <h3 class="footer__title">Follow Us</h3>
+                    <div class="footer__social">
+                        <a href="#" class="footer__social-link">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="#" class="footer__social-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="footer__social-link">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer__section">
+                    <h3 class="footer__title">Newsletter</h3>
+                    <form class="footer__newsletter">
+                        <input type="email" placeholder="Enter your email" class="footer__input">
+                        <button type="submit" class="footer__button">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="footer__bottom">
+                <p>&copy; 2024 Water Panda. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

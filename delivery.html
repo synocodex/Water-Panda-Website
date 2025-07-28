@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delivery - Water Panda</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <i class="fas fa-tint"></i>
+                <span>Water Panda</span>
+            </div>
+            
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="index.html" class="nav__link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="about.html" class="nav__link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="products.html" class="nav__link">Products</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="delivery.html" class="nav__link active">Delivery</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="sustainability.html" class="nav__link">Sustainability</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="contact.html" class="nav__link">Contact</a>
+                    </li>
+                </ul>
+                
+                <div class="nav__close" id="nav-close">
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+            
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="page-header__title">Water Delivery Service</h1>
+            <p class="page-header__subtitle">Fast, reliable delivery to your doorstep</p>
+        </div>
+    </section>
+
+    <!-- Service Area -->
+    <section class="service-area section">
+        <div class="container">
+            <h2 class="section__title">Our Service Area</h2>
+            <div class="service-area__content">
+                <div class="service-area__map">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387190.2799160891!2d-74.25987368715491!3d40.697670063539654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2s!4v1635959542742!5m2!1sen!2s" 
+                        width="100%" 
+                        height="400" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy">
+                    </iframe>
+                </div>
+                <div class="service-area__info">
+                    <h3>We Deliver To:</h3>
+                    <ul class="service-area__list">
+                        <li><i class="fas fa-check"></i> Manhattan</li>
+                        <li><i class="fas fa-check"></i> Brooklyn</li>
+                        <li><i class="fas fa-check"></i> Queens</li>
+                        <li><i class="fas fa-check"></i> Bronx</li>
+                        <li><i class="fas fa-check"></i> Staten Island</li>
+                        <li><i class="fas fa-check"></i> New Jersey</li>
+                    </ul>
+                    <p class="service-area__note">
+                        Don't see your area? <a href="contact.html">Contact us</a> to check availability.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="how-it-works section section--gray">
+        <div class="container">
+            <h2 class="section__title">How It Works</h2>
+            <div class="steps__grid">
+                <div class="step__card">
+                    <div class="step__number">1</div>
+                    <div class="step__icon">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <h3 class="step__title">Select Bottle</h3>
+                    <p class="step__description">Choose from our range of premium water bottles in various sizes.</p>
+                </div>
+                
+                <div class="step__card">
+                    <div class="step__number">2</div>
+                    <div class="step__icon">
+                        <i class="fas fa-calendar-alt"></i>
+                    </div>
+                    <h3 class="step__title">Schedule</h3>
+                    <p class="step__description">Pick your preferred delivery date and time slot that works for you.</p>
+                </div>
+                
+                <div class="step__card">
+                    <div class="step__number">3</div>
+                    <div class="step__icon">
+                        <i class="fas fa-credit-card"></i>
+                    </div>
+                    <h3 class="step__title">Pay</h3>
+                    <p class="step__description">Secure payment with multiple options including credit card and digital wallets.</p>
+                </div>
+                
+                <div class="step__card">
+                    <div class="step__number">4</div>
+                    <div class="step__icon">
+                        <i class="fas fa-truck"></i>
+                    </div>
+                    <h3 class="step__title">Delivery</h3>
+                    <p class="step__description">Our team delivers fresh water directly to your doorstep on time.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Delivery Options -->
+    <section class="delivery-options section">
+        <div class="container">
+            <h2 class="section__title">Delivery Options</h2>
+            <div class="delivery__grid">
+                <div class="delivery__card">
+                    <div class="delivery__icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3 class="delivery__title">Same Day</h3>
+                    <p class="delivery__price">$5.99</p>
+                    <p class="delivery__description">Order before 2 PM for same-day delivery</p>
+                    <ul class="delivery__features">
+                        <li>2-6 hours delivery</li>
+                        <li>Available Mon-Fri</li>
+                        <li>Track your order</li>
+                    </ul>
+                </div>
+                
+                <div class="delivery__card delivery__card--popular">
+                    <div class="delivery__badge">Most Popular</div>
+                    <div class="delivery__icon">
+                        <i class="fas fa-shipping-fast"></i>
+                    </div>
+                    <h3 class="delivery__title">Next Day</h3>
+                    <p class="delivery__price">$2.99</p>
+                    <p class="delivery__description">Order today, get it tomorrow</p>
+                    <ul class="delivery__features">
+                        <li>Next business day</li>
+                        <li>Available 7 days</li>
+                        <li>Free for orders $50+</li>
+                    </ul>
+                </div>
+                
+                <div class="delivery__card">
+                    <div class="delivery__icon">
+                        <i class="fas fa-calendar-week"></i>
+                    </div>
+                    <h3 class="delivery__title">Scheduled</h3>
+                    <p class="delivery__price">Free</p>
+                    <p class="delivery__description">Choose your preferred date</p>
+                    <ul class="delivery__features">
+                        <li>Up to 7 days ahead</li>
+                        <li>2-hour time slots</li>
+                        <li>SMS notifications</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta section">
+        <div class="container">
+            <div class="cta__content">
+                <h2 class="cta__title">Ready to Schedule Your Delivery?</h2>
+                <p class="cta__description">Join thousands of satisfied customers who trust Water Panda for their daily hydration needs.</p>
+                <a href="products.html" class="btn btn--primary">Schedule a Delivery</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__section">
+                    <div class="footer__logo">
+                        <i class="fas fa-tint"></i>
+                        <span>Water Panda</span>
+                    </div>
+                    <p class="footer__slogan">Purity Delivered to Your Doorstep</p>
+                </div>
+                
+                <div class="footer__section">
+                    <h3 class="footer__title">Quick Links</h3>
+                    <ul class="footer__links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="delivery.html">Delivery</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer__section">
+                    <h3 class="footer__title">Follow Us</h3>
+                    <div class="footer__social">
+                        <a href="#" class="footer__social-link">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="#" class="footer__social-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="footer__social-link">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer__section">
+                    <h3 class="footer__title">Newsletter</h3>
+                    <form class="footer__newsletter">
+                        <input type="email" placeholder="Enter your email" class="footer__input">
+                        <button type="submit" class="footer__button">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="footer__bottom">
+                <p>&copy; 2024 Water Panda. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
